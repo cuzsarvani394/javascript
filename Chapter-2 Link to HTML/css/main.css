@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 250%;             /*    means that the intended size for the <h1> will be 2.5 times the size of the base font-size */
+}
